@@ -1,0 +1,4 @@
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sh2_master_rom.v ]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sh2_slave_rom.v ]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) pwm_fifo.v ]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) vdp_core.v ]
